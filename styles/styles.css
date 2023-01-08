@@ -3,6 +3,7 @@
 * {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
+  font-style: normal;
 }
 
 
@@ -34,7 +35,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #444343;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   text-align: right;
   line-height: 26px;
 
@@ -53,17 +54,112 @@
   border-radius: 5px;
 }
 
-/* main section styles (failures-section) */
+/* failures-section styles  */
 
 .failures-section {
-  margin: 130px;
+  margin: 130px 200px 130px 150px;
   display: flex;
+
 } 
 
 .section-info {
-  margin: 100px
+  margin-top: 180px;
+  margin-right: 70px;
+}
+.person-image {
+  margin-right: 90px;
+}
+.section-title {
+  font-family: 'Work Sans';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
 }
 
+.section-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin-bottom: 16px;
+}
+
+
+
+li {
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+list-style: none;
+}
+
+/* my plans section style */
+
+.my-plans {
+  margin: 0px 130px 125px;
+  text-align: center;
+}
+.section-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plans-name {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.aim {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
+ /* message section styles */
   
+.message-section {
+  background-image: url(../images/gradient3.png), url(../images/watch.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 280px;
+  background-position: center;
+  margin: 0px 230px 130px;
+  border-radius: 8px;
+
+}
+.message-box {
+  padding: 50px 300px 40px 65px; 
+}
+.message {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.call-button {
+  width: 160px;
+  height: 64px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #F15B22;
+}
 
 
