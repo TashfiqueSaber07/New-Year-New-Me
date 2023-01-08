@@ -65,9 +65,7 @@
 .section-info {
   margin-top: 180px;
   margin-right: 70px;
-}
-.person-image {
-  margin-right: 90px;
+  margin-left: 90px;
 }
 .section-title {
   font-family: 'Work Sans';
